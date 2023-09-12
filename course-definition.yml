@@ -35,7 +35,6 @@ marketing:
   sample_extension_idea_description: "A Redis server that can read and write .rdb files"
   testimonials:
     - author_name: "Charles Guo"
-incorrect_syntax
       author_description: "Software Engineer, Stripe"
       author_avatar: "https://codecrafters.io/images/external/testimonials/charles-guo.png"
       link: "https://github.com/shaldengeki"
