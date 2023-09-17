@@ -15,7 +15,7 @@ short_description_md: |
 completion_percentage: 30
 
 languages:
-slug: "ocaml"
+  - slug: "ocaml"
   - slug: "c"
   - slug: "clojure"
   - slug: "crystal"
