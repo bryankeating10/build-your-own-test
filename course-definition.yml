@@ -194,21 +194,3 @@ stages:
       expiry is provided using the "PX" argument to the
       [SET](https://redis.io/commands/set) command.
     tester_source_code_url: "https://github.com/codecrafters-io/redis-tester/blob/master/internal/test_expiry.go"
-
-  - slug: "ping-pong"
-    name: "Respond to PING"
-    difficulty: easy
-    description_md: |
-      In this stage, you'll respond to the
-      [PING](https://redis.io/commands/ping) command.
-
-      Your server should respond with `+PONG\r\n`, which is "PONG" encoded as a [RESP simple string](https://redis.io/docs/reference/protocol-spec/#resp-simple-strings).
-
-      Since the tester client _only_ sends the PING command at the moment, it's okay to
-      ignore what the client sends and hardcode a response. We'll get to parsing
-      client input in later stages.
-    marketing_md: |
-      In this stage, you'll respond to the
-      [PING](https://redis.io/commands/ping) command. You'll use [the Redis
-      protocol](https://redis.io/topics/protocol) to encode the reply.
-    tester_source_code_url: "https://github.com/codecrafters-io/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_ping_pong.go#L9"
