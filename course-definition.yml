@@ -73,6 +73,15 @@ stages:
       Since the tester client _only_ sends the PING command at the moment, it's okay to
       ignore what the client sends and hardcode a response. We'll get to parsing
       client input in later stages.
+
+      Here's a sample table:
+
+      | Column 1 Header| Column 2 Header | Column 3 Header |
+      | -------------- | --------------- | --------------- |
+      | Row 1, Col 1   | Row 1, Col 2    | Row 1, Col 3    |
+      | Row 2, Col 1   | Row 2, Col 2    | Row 2, Col 3    |
+      | Row 3, Col 1   | Row 3, Col 2    | Row 3, Col 3    |
+
     marketing_md: |-
       In this stage, you'll respond to the
       [PING](https://redis.io/commands/ping) command. You'll use [the Redis
