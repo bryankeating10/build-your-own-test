@@ -52,6 +52,7 @@ marketing:
 
 stages:
   - legacy_slug: "init"
+    slug: "init"
     name: "Bind to a port"
     description_md: |-
       In this stage, your task is to start a TCP server on port 6379, the default port that redis uses.
@@ -62,6 +63,7 @@ stages:
     tester_source_code_url: "https://github.com/codecrafters-io/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_bind.go#L11"
 
   - legacy_slug: "ping-pong"
+    slug: "ping-pong"
     name: "Respond to PING"
     difficulty: easy
     description_md: |-
@@ -89,6 +91,7 @@ stages:
     tester_source_code_url: "https://github.com/codecrafters-io/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_ping_pong.go#L9"
 
   - legacy_slug: "ping-pong-multiple"
+    slug: "ping-pong-multiple"
     name: "Respond to multiple PINGs"
     difficulty: easy
     description_md: |-
@@ -116,6 +119,7 @@ stages:
     tester_source_code_url: "https://github.com/codecrafters-io/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_ping_pong.go#L35"
 
   - legacy_slug: "concurrent-clients"
+    slug: "concurrent-clients"
     name: "Handle concurrent clients"
     difficulty: medium
     description_md: |-
@@ -144,6 +148,7 @@ stages:
     tester_source_code_url: "https://github.com/codecrafters-io/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_ping_pong.go#L56"
 
   - legacy_slug: "echo"
+    slug: "echo"
     name: "Implement the ECHO command"
     difficulty: medium
     description_md: |-
@@ -168,6 +173,7 @@ stages:
 
   # TODO: Change this to use hyphens
   - legacy_slug: "set_get"
+    slug: "set_get"
     name: "Implement the SET & GET commands"
     difficulty: medium
     description_md: |-
@@ -182,6 +188,7 @@ stages:
     tester_source_code_url: "https://github.com/codecrafters-io/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_get_set.go#L11"
 
   - legacy_slug: "expiry"
+    slug: "expiry"
     name: "Expiry"
     difficulty: medium
     description_md: |-
