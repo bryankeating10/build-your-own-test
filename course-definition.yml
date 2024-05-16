@@ -51,7 +51,8 @@ marketing:
         Didn't even know that was possible!
 
 stages:
-  - slug: "init"
+  - legacy_slug: "init"
+    slug: "init"
     name: "Bind to a port"
     description_md: |-
       In this stage, your task is to start a TCP server on port 6379, the default port that redis uses.
@@ -61,7 +62,8 @@ stages:
       default port that Redis uses.
     tester_source_code_url: "https://github.com/codecrafters-io/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_bind.go#L11"
 
-  - slug: "ping-pong"
+  - legacy_slug: "ping-pong"
+    slug: "ping-pong"
     name: "Respond to PING"
     difficulty: easy
     description_md: |-
@@ -88,7 +90,8 @@ stages:
       protocol](https://redis.io/topics/protocol) to encode the reply.
     tester_source_code_url: "https://github.com/codecrafters-io/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_ping_pong.go#L9"
 
-  - slug: "ping-pong-multiple"
+  - legacy_slug: "ping-pong-multiple"
+    slug: "ping-pong-multiple"
     name: "Respond to multiple PINGs"
     difficulty: easy
     description_md: |-
@@ -115,7 +118,8 @@ stages:
       [PING](https://redis.io/commands/ping) commands sent by the same client.
     tester_source_code_url: "https://github.com/codecrafters-io/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_ping_pong.go#L35"
 
-  - slug: "concurrent-clients"
+  - legacy_slug: "concurrent-clients"
+    slug: "concurrent-clients"
     name: "Handle concurrent clients"
     difficulty: medium
     description_md: |-
@@ -143,7 +147,8 @@ stages:
       like the official Redis implementation does.
     tester_source_code_url: "https://github.com/codecrafters-io/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_ping_pong.go#L56"
 
-  - slug: "echo"
+  - legacy_slug: "echo"
+    slug: "echo"
     name: "Implement the ECHO command"
     difficulty: medium
     description_md: |-
@@ -167,7 +172,8 @@ stages:
     tester_source_code_url: "https://github.com/codecrafters-io/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_echo.go#L11"
 
   # TODO: Change this to use hyphens
-  - slug: "set_get"
+  - legacy_slug: "set_get"
+    slug: "set_get"
     name: "Implement the SET & GET commands"
     difficulty: medium
     description_md: |-
@@ -181,7 +187,8 @@ stages:
       [GET](https://redis.io/commands/get) commands.
     tester_source_code_url: "https://github.com/codecrafters-io/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_get_set.go#L11"
 
-  - slug: "expiry"
+  - legacy_slug: "expiry"
+    slug: "expiry"
     name: "Expiry"
     difficulty: medium
     description_md: |-
