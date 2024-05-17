@@ -52,7 +52,7 @@ marketing:
 
 stages:
   - legacy_slug: "init"
-    slug: "init"
+    slug: "jm1"
     name: "Bind to a port"
     description_md: |-
       In this stage, your task is to start a TCP server on port 6379, the default port that redis uses.
@@ -63,7 +63,7 @@ stages:
     tester_source_code_url: "https://github.com/codecrafters-io/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_bind.go#L11"
 
   - legacy_slug: "ping-pong"
-    slug: "ping-pong"
+    slug: "rg2"
     name: "Respond to PING"
     difficulty: easy
     description_md: |-
@@ -91,7 +91,7 @@ stages:
     tester_source_code_url: "https://github.com/codecrafters-io/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_ping_pong.go#L9"
 
   - legacy_slug: "ping-pong-multiple"
-    slug: "ping-pong-multiple"
+    slug: "wy1"
     name: "Respond to multiple PINGs"
     difficulty: easy
     description_md: |-
@@ -119,7 +119,7 @@ stages:
     tester_source_code_url: "https://github.com/codecrafters-io/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_ping_pong.go#L35"
 
   - legacy_slug: "concurrent-clients"
-    slug: "concurrent-clients"
+    slug: "zu2"
     name: "Handle concurrent clients"
     difficulty: medium
     description_md: |-
@@ -148,7 +148,7 @@ stages:
     tester_source_code_url: "https://github.com/codecrafters-io/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_ping_pong.go#L56"
 
   - legacy_slug: "echo"
-    slug: "echo"
+    slug: "qq0"
     name: "Implement the ECHO command"
     difficulty: medium
     description_md: |-
@@ -173,7 +173,7 @@ stages:
 
   # TODO: Change this to use hyphens
   - legacy_slug: "set_get"
-    slug: "set_get"
+    slug: "la7"
     name: "Implement the SET & GET commands"
     difficulty: medium
     description_md: |-
@@ -188,7 +188,7 @@ stages:
     tester_source_code_url: "https://github.com/codecrafters-io/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_get_set.go#L11"
 
   - legacy_slug: "expiry"
-    slug: "expiry"
+    slug: "yz1"
     name: "Expiry"
     difficulty: medium
     description_md: |-
