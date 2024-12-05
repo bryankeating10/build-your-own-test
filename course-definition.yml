@@ -203,3 +203,6 @@ stages:
       expiry is provided using the "PX" argument to the
       [SET](https://redis.io/commands/set) command.
     tester_source_code_url: "https://github.com/codecrafters-io/redis-tester/blob/master/internal/test_expiry.go"
+
+  # I'm practicing how to fork repositories and create pull requests. I watched your video on YouTube where you suggested
+  # editing typos in your repositories to get practice. I figured I'd start off with a simple comment to get the hang of it.
